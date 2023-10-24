@@ -1,7 +1,7 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
-function generatePassword (){
+function generatePassword () {
   console.log ("you clicked the button")
 
   var lengthInput = prompt("How many characters would you like your password to contain?:");
@@ -11,8 +11,20 @@ function generatePassword (){
     alert("Please enter a valid password length between 8 and 128 characters.");
     return "";
 
+  }
+  
+var includeLowercase= confirm("Include lowercase characters?")
+var includeUppercase= confirm("Include uppercase characters?")
+var includeNumeric= confirm("Include numeric characters?")
+var includeSpecial= confirm("Include special characters?")
+
+if (!(includeLowercase || includeUppercase || includeNumeric || includeSpecial)) {
+    alert("Please select at least one character type.");
+    return "";
+
 }
 }
+
 // Write password to the #password input
 function writePassword() {
   var password = generatePassword();
