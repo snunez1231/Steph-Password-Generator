@@ -9,7 +9,8 @@ There is no specific installation process for this repository. You can simply cl
 
 ## Usage:
 
-Run the application to generate a password with criteria that meet your security requirements. 
+Run the application to generate a password with criteria that meet your security requirements. https://snunez1231.github.io/Steph-Password-Generator/
+
 
 ## Mock-Up
 The following image shows the web application's appearance and functionality:
